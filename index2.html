@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vlad's First Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome (icons) -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- ===== HERO SECTION ===== -->
+    <header class="hero-header">
+        <div class="container hero-inner">
+            <div class="hero-card">
+                <div class="hero-avatar-wrap">
+                    <img 
+                        src="/mnt/data/A_digital_photograph_features_a_close-up_portrait_.png"
+                        alt="Surfer profile"
+                        class="hero-avatar"
+                    >
+                </div>
+
+                <div class="hero-text">
+                    <p class="hero-tag">Surf &amp; Code Journey</p>
+                    <h1 class="hero-title">Vlad’s First Website</h1>
+                    <p class="hero-sub">
+                        A simple place to combine my love for surfing, the sea,
+                        and my first steps as a web developer.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#surf-moments" class="btn btn-primary btn-sm-custom">
+                            View Surf Moments
+                        </a>
+                        <a href="#about" class="btn btn-outline-light btn-sm-custom">
+                            About Me
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.youtube.com/" target="_blank" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.instagram.com/vladshvy1/" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.google.com/" target="_blank" class="social-link">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-side-image d-none d-md-block">
+                <img
+                    src="https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                    alt="Surfing wave"
+                >
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main class="main-wrapper">
+        <div class="container main-card">
+            <!-- About Me -->
+            <section id="about" class="mb-5">
+                <h2 class="section-title">About Me</h2>
+                <p>
+                    Hi! I'm Vlad, a 20-year-old who loves surfing and spending time at the beach.
+                    Riding waves makes me feel free, calm, and full of energy.
+                    This is my first website, where I practice HTML &amp; CSS while building something
+                    simple about the things I like: the sea, surfing, and good vibes.
+                </p>
+            </section>
+
+            <!-- Favorite Website -->
+            <section class="mb-5">
+                <h2 class="section-title">My Favorite Website</h2>
+                <p class="mb-3">
+                    After a good surf session, this is my go-to place for music, videos, and learning:
+                </p>
+                <a href="https://www.youtube.com/" class="btn btn-accent" target="_blank">
+                    <i class="fab fa-youtube me-2"></i> Visit YouTube
+                </a>
+            </section>
+
+            <!-- Surf Moments -->
+            <section id="surf-moments">
+                <h2 class="section-title">Surf Moments</h2>
+                <p class="mb-4">
+                    A few surf moments that inspire me and remind me why I love the ocean:
+                </p>
+
+                <div class="surf-moment-container">
+                    <article class="surf-moment">
+                        <div class="surf-img-wrap">
+                            <img
+                                src="https://images.pexels.com/photos/416676/pexels-photo-416676.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                alt="Morning surf"
+                            >
+                        </div>
+                        <div class="surf-content">
+                            <h5>Calm Morning Surf</h5>
+                            <p>
+                                Small clean waves, quiet beach, and a perfect way to start the day.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="surf-moment">
+                        <div class="surf-img-wrap">
+                            <img
+                                src="https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                alt="Sunset surf"
+                            >
+                        </div>
+                        <div class="surf-content">
+                            <h5>Sunset Session</h5>
+                            <p>
+                                Surfing during sunset – warm colors in the sky and a peaceful feeling in the water.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="surf-moment">
+                        <div class="surf-img-wrap">
+                            <img
+                                src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&w=800"
+                                alt="Big wave"
+                            >
+                        </div>
+                        <div class="surf-content">
+                            <h5>Big Wave Challenge</h5>
+                            <p>
+                                Pushing myself to take bigger waves, improve my skills, and grow my confidence.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer text-center py-3">
+        <p class="mb-0 small">
+            &copy; 2025 Vlad's First Website · Built while learning HTML &amp; CSS.
+        </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
